@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.inicioComp {
+  background-image: url("../images/plotters/arbol1.jpg");
+  background-repeat: no-repeat;
+  width: 120%;
+  height: 800px;
+}
+
+#nuevo_mensaje {
+  display: none;
+}
+
+#cerrar_anyadir_mensaje {
+  background-color: #41d441;
+  color: black;
+}
+
+#añadir_mensaje {
+  background-color: #41d441;
+}
+/*# sourceMappingURL=style.css.map */

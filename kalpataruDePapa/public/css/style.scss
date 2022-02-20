@@ -1,0 +1,24 @@
+//inicio
+.inicioComp{
+    background-image: url("../images/plotters/arbol1.jpg");
+    background-repeat: no-repeat;
+    width: 120%;
+   height: 800px;
+    
+}
+
+//mensajes
+#nuevo_mensaje{
+    display: none;
+
+}
+
+#cerrar_anyadir_mensaje{
+    background-color: rgb(65, 212, 65);
+    color: black;
+  
+}
+#añadir_mensaje{
+    background-color: rgb(65, 212, 65);
+}
+
