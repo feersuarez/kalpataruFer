@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-1">
+<link rel="stylesheet" type="text/css" href="{{URL::asset('css/style.css')}}">
+<nav class="navbar navbar-expand-md mb-1" id="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="{{route('home')}}">Kalpataru.com</a>
+      <a class="navbar-brand" href="{{route('home')}}">Kalpataru</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
