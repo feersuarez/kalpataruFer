@@ -1,10 +1,6 @@
 @charset "UTF-8";
-#navbar {
-  background-color: #282828;
-}
-
-.nav-link {
-  color: white;
+.navbar {
+  background-color: #000;
 }
 
 .contenido {
@@ -19,11 +15,11 @@
 }
 
 #cerrar_anyadir_mensaje {
-  background-color: #41d441;
+  background-color: #7f00b2;
   color: black;
 }
 
 #añadir_mensaje {
-  background-color: #41d441;
+  background-color: #7f00b2;
 }
 /*# sourceMappingURL=style.css.map */

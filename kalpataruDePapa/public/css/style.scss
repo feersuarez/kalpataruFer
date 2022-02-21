@@ -1,18 +1,13 @@
 $nav-color: #282828;
 $primary-color: #7f00b2;
 $secondary-color: #000;
-$letra1: Arial;
+$letra1: 'Helvetica Now';
 
 
 //inicio
-#navbar{
-    background-color: $nav-color;
+.navbar{
+    background-color: $secondary-color;
 }
-
-.nav-link{
-    color: white;
-}
-
 
 .contenido{
     background-color: blue;
@@ -28,11 +23,11 @@ $letra1: Arial;
 }
 
 #cerrar_anyadir_mensaje{
-    background-color: rgb(65, 212, 65);
+    background-color: $primary-color;
     color: black;
   
 }
 #añadir_mensaje{
-    background-color: rgb(65, 212, 65);
+    background-color: $primary-color;
 }
 

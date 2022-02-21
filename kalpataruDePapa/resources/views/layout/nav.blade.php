@@ -1,4 +1,7 @@
-<link rel="stylesheet" type="text/css" href="{{URL::asset('css/style.css')}}">
+{{-- CSS --}}
+<?php echo '<link rel="stylesheet" type="text/css" href="../public/css/style.css">' ?>
+
+
 <nav class="navbar navbar-expand-md mb-1" id="navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="{{route('home')}}">Kalpataru</a>
@@ -44,3 +47,8 @@
       </div>
     </div>
   </nav>
+  <style>
+    nav{
+      background-color: blueviolet;
+    }
+  </style>
