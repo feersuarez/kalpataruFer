@@ -1,13 +1,42 @@
 @charset "UTF-8";
-.navbar {
-  background-color: #000;
+body {
+  font-family: "Staatliches", "cursive";
+  background-image: url("../images/paisaje-fondo.jpg");
+  background-size: cover;
 }
 
-.contenido {
-  background-color: blue;
-  background-repeat: no-repeat;
-  width: 120%;
-  height: 800px;
+/*NAVBAR*/
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1%;
+}
+
+.navbar-brand {
+  color: #D401D6;
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  color: #b9ffff;
+}
+
+.nav-item {
+  color: #7f00b2;
+  text-align: center;
+}
+
+.nav-link {
+  color: #D401D6 !important;
+  font-size: larger;
+}
+
+.nav-link:hover {
+  color: #b9ffff !important;
+}
+
+/*Inicio-Principal*/
+#principal {
+  font-family: "Helvetica";
 }
 
 #nuevo_mensaje {
@@ -16,7 +45,7 @@
 
 #cerrar_anyadir_mensaje {
   background-color: #7f00b2;
-  color: black;
+  color: #000;
 }
 
 #añadir_mensaje {

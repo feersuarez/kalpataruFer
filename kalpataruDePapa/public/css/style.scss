@@ -1,19 +1,52 @@
-$nav-color: #282828;
+$nav-color: rgba(0,0,0,0.5);
 $primary-color: #7f00b2;
 $secondary-color: #000;
-$letra1: 'Helvetica Now';
+$letter-color1: #D401D6;
+$letter-color1-hover: #b9ffff;
+$letra1: 'Staatliches', 'cursive';
+$letra2: 'Helvetica';
 
 
-//inicio
-.navbar{
-    background-color: $secondary-color;
+
+body{
+    font-family: $letra1;
+    background-image: url('../images/paisaje-fondo.jpg');
+    background-size: cover;
 }
 
-.contenido{
-    background-color: blue;
-    background-repeat: no-repeat;
-    width: 120%;
-    height: 800px;
+/*NAVBAR*/
+.navbar{
+    background-color: $nav-color;
+    padding: 1%;
+}
+
+.navbar-brand{
+    color: $letter-color1;
+    font-size: 30px;
+}
+
+.navbar-brand:hover{
+    color: $letter-color1-hover;
+}
+
+.nav-item{
+    color: $primary-color;
+    text-align: center;
+}
+
+.nav-link{
+    color: $letter-color1 !important;
+    font-size: larger;
+}
+
+.nav-link:hover{
+    color: $letter-color1-hover !important;
+}
+
+/*Inicio-Principal*/
+
+#principal{
+    font-family: $letra2;
 }
 
 //mensajes
@@ -24,8 +57,8 @@ $letra1: 'Helvetica Now';
 
 #cerrar_anyadir_mensaje{
     background-color: $primary-color;
-    color: black;
-  
+    color: $secondary-color;
+    
 }
 #añadir_mensaje{
     background-color: $primary-color;

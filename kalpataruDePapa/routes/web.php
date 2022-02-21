@@ -5,6 +5,7 @@ use App\Http\Controllers\PruebaController;
 use App\Http\Controllers\MensajesController;
 use App\Http\Controllers\PlotterController;
 use App\Http\Controllers\CursoController;
+use App\Http\Controllers\LanguageController;
 
 
 /*
@@ -41,6 +42,8 @@ Route::get('/mensajes',  function () {
 //Route::get('mensajes',[MensajesController::class, "index"]);
 
 Route::resource('mensajes',MensajesController::class);
+
+Route::get('lang/{lang}', [LanguageController::class, 'swap'])->name('lang.swap');
 
 // Route::resource('cursos',CursoController::class);
 //Route::get('/cursos',[CursoController::class, "index"]);
