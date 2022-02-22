@@ -10,12 +10,13 @@
 
 <div id="principal">
     <div class="animacion_princ">
-        <p class="li_inicio">Nuestro/s</p>
+        <p class="li_inicio">{!! trans('jokes.Nuestros_Inicio') !!}</p>
         <ul class="ul_inicio">
-            <li class="li_inicio">Árbol</li>
-            <li class="li_inicio">Deseo</li>
-            <li class="li_inicio">Futuro</li>
+            <li class="li_inicio">{!! trans('jokes.Arbol_Inicio') !!}</li>
+            <li class="li_inicio">{!! trans('jokes.Deseos_Inicio') !!}</li>
+            <li class="li_inicio">{!! trans('jokes.Futuro_Inicio') !!}</li>
         </ul>
+    </div>
  
     
 

@@ -5,7 +5,7 @@
 <script src="{{asset('./js/app.js')}}"></script>
 
 
-<h1 class="titulos">{!! trans('jokes.Mensajes') !!}</h1>
+<h1 class="titulos">{!! trans('jokes.Titulo_mensaje') !!}</h1>
 <div class="mensjesComp">
     <table class="table  text-color-w">
         <thead>

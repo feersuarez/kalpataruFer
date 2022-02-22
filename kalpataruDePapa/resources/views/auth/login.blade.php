@@ -1,11 +1,14 @@
 @extends('layout.masterpage')
 
 @section('contenido')
+<link rel="stylesheet" type="text/css" href="../public/css/style.css">
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{!! trans('jokes.InicioSesion') !!}</div>
+                <div class="card-header"><h1 class="titulos">{!! trans('jokes.InicioSesion') !!}</h1></div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">

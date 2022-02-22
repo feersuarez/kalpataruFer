@@ -8,7 +8,11 @@ return [
     'IniSesion' => 'Iniciar Sesión',
     'Registrarse' => 'Registrarse',
     'CerrarSesion' => 'Cerrar Sesión',
-    /*  */
+    /* Inicio */
+    'Nuestros_Inicio' => 'Nuestro/s',
+    'Arbol_Inicio' => 'Árbol',
+    'Deseos_Inicio' => 'Deseos',
+    'Futuro_Inicio' => 'Futuro',
     /* Mensajes */
     'Titulo_mensaje' => 'Título Mensaje',
     'Contenidomsj' => 'Contenido',

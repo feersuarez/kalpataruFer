@@ -8,7 +8,11 @@ return [
     'IniSesion' => 'Saioa Hasi',
     'Registrarse' => 'Erregistratu',
     'CerrarSesion' => 'Itxi Saioa',
-    /* */
+    /* Inicio */
+    'Nuestros_Inicio' => 'Gure',
+    'Arbol_Inicio' => 'Zuhaitza',
+    'Deseos_Inicio' => 'Desioak',
+    'Futuro_Inicio' => 'Etorkizuna',
     /* Mensajes */
     'Titulo_mensaje' => 'Mezu Izenburua',
     'Contenidomsj' => 'Edukia',
