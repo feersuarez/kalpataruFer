@@ -16,7 +16,7 @@
         <script>
             $('#titulo_kalpataru').typeIt({
                 strings: ["Nuestro Árbol", "Gure Zuhaitza", "Kalpataru"],
-                speed: 80,
+                speed: 90,
                 breakLines: false
             });
 
@@ -32,10 +32,10 @@
                 {{-- Solo Invitados --}}
                 @if(!Auth::check())
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ route('login')}}">Inicio sesión</a>
+                    <a class="nav-link" aria-current="page" href="{{ route('login')}}">{!! trans('jokes.IniSesion') !!}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ route('register')}}">Registrarse</a>
+                    <a class="nav-link" aria-current="page" href="{{ route('register')}}">{!! trans('jokes.Registrarse') !!}</a>
                 </li>
                 @else
                 <li class="nav-item">
@@ -43,7 +43,7 @@
                             style="color: #b9ffff">{{auth()->user()->name}}</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ route('mensajes.index')}}">Mensajes</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('mensajes.index')}}">{!! trans('jokes.Mensajes') !!}</a>
                 </li>
                 @if(Auth::user()->role_id=="1")
 
@@ -58,7 +58,7 @@
                     {{-- Petición POST (La ruta así lo espera) --}}
                     <a class="nav-link" aria-current="page" onclick="event.preventDefault();
                     document.getElementById('logout').submit();">
-                        Cerrar sesión
+                        {!! trans('jokes.CerrarSesion') !!}
                     </a>
 
                     {{-- Solo usuarios identificados --}}
