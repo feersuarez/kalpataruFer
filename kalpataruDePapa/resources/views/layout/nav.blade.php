@@ -47,11 +47,13 @@
                 </li>
                 @if(Auth::user()->role_id=="1")
 
-          <li class="nav-item">
-            <a class="nav-link active" id="admin" onMouseOver="this.style.cssText='color: #cc0000'" onMouseOut="this.style.cssText='color: #fff'"  aria-current="page" href="{{ route('voyager.dashboard') }}">{!! trans('jokes.Administradora') !!}</a></a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="admin" onMouseOver="this.style.cssText='color: #cc0000'"
+                        onMouseOut="this.style.cssText='color: #fff'" aria-current="page"
+                        href="{{ route('voyager.dashboard') }}">{!! trans('jokes.Administradora') !!}</a></a>
+                </li>
 
-            @endif
+                @endif
                 <li class="nav-item">
                     {{-- Petición POST (La ruta así lo espera) --}}
                     <a class="nav-link" aria-current="page" onclick="event.preventDefault();
