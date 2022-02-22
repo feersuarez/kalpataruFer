@@ -39,6 +39,11 @@ body {
   font-family: "Helvetica";
 }
 
+.titulos {
+  color: #b9ffff;
+  text-align: center;
+}
+
 .form_newmsj {
   color: #b9ffff;
 }
@@ -80,9 +85,9 @@ body {
   background-color: #b9ffff;
   color: #D401D6;
   border: none;
-  padding: 1%;
   font-size: 15px;
-  margin-left: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 
 #cerrar_anyadir_mensaje:hover {

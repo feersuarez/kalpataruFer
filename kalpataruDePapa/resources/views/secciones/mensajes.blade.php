@@ -5,7 +5,7 @@
 <script src="{{asset('./js/app.js')}}"></script>
 
 
-
+<h1 class="titulos">{!! trans('jokes.Mensajes') !!}</h1>
 <div class="mensjesComp">
     <table class="table  text-color-w">
         <thead>
@@ -27,6 +27,7 @@
         </thead>
         <button id="añadir_mensaje" onclick="anyadir_mensaje()">{!! trans('jokes.New_Message') !!}</button>
         <div id="nuevo_mensaje">
+            <button id="cerrar_anyadir_mensaje" onclick="cerrar_mensaje()">x</button>
             <form action="{{route('mensajes.store')}}" method="post" class="row">
                 @csrf
                 <div>
@@ -41,7 +42,7 @@
                 <div>
 
                     <button id="crear_mensaje" type="submit">{!! trans('jokes.Crear_msj') !!}</button>
-                    <button id="cerrar_anyadir_mensaje" onclick="cerrar_mensaje()">X</button>
+                    
             </form>
 
 

@@ -51,6 +51,10 @@ body{
 }
 
 //mensajes
+.titulos{
+    color: $color-txt;
+    text-align: center;
+}
 
 .form_newmsj{
     color: $color-txt;
@@ -93,9 +97,9 @@ body{
     background-color: $color-txt;
     color: $letter-color1; 
     border: none;
-    padding: 1%;
     font-size: 15px;
-    margin-left: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 #cerrar_anyadir_mensaje:hover{
