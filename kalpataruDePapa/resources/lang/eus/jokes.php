@@ -43,7 +43,17 @@ return [
     'ResetPsswd' => "Berrezarri pasahitza",
     'CorreoEmail' => 'Posta:',
     'EnvResetEmail' => 'Bidali esteka pasahitza berrabiarazteko',
-
+    /* Confirm */
+    'ConfirmeConfirm' => 'Berretsi pasahitza jarraitu aurretik.',
+    'PasswordConfirm' => 'Pasahitza:',
+    'Confirmar2Confirm' => 'Konfirmatu',
+    'ForgotConfirm' => 'Pasahitza ahaztu duzu?',
+    /* Reset */
+    'ResetPassword' => 'Resetear Contraseña',
+    'EmailAddr' => 'Posta:',
+    'ContraReset' => 'Pasahitza:',
+    'ConfirmarContraReset' => 'Pasahitza berretsi',
+    'ResetContraReset' => 'Berrezarri pasahitza',
 
 
 

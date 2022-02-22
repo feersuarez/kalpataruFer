@@ -44,10 +44,16 @@ return [
     'CorreoEmail' => 'Correo:',
     'EnvResetEmail' => 'Enviar link para resetear la contraseña',
     /* Confirm */
-    'EnvResetEmail' => 'Enviar link para resetear la contraseña',
-    'EnvResetEmail' => 'Enviar link para resetear la contraseña',
-    'EnvResetEmail' => 'Enviar link para resetear la contraseña',
-
+    'ConfirmeConfirm' => 'Confirme su contraseña antes de continuar.',
+    'PasswordConfirm' => 'Contraseña:',
+    'Confirmar2Confirm' => 'Confirmar',
+    'ForgotConfirm' => '¿Has olvidado la contraseña?',
+    /* Reset */
+    'ResetPassword' => 'Resetear Contraseña',
+    'EmailAddr' => 'Correo:',
+    'ContraReset' => 'Contraseña:',
+    'ConfirmarContraReset' => 'Confirmar contraseña',
+    'ResetContraReset' => 'Resetear contraseña',
 
 
 ];

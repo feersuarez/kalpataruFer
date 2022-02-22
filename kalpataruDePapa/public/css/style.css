@@ -39,6 +39,100 @@ body {
   font-family: "Helvetica";
 }
 
+.animacion_princ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 40px;
+  color: #b9ffff;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "Staatliches", "cursive";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.ul_inicio {
+  list-style: none;
+  padding-left: 10px;
+  -webkit-animation-name: cambiar;
+          animation-name: cambiar;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.li_inicio {
+  margin: 0;
+}
+
+@-webkit-keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -40px;
+  }
+  55% {
+    margin-top: -80px;
+  }
+  80% {
+    margin-top: -80px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  95% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -40px;
+  }
+  55% {
+    margin-top: -80px;
+  }
+  80% {
+    margin-top: -80px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  95% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
 .titulos {
   color: #b9ffff;
   text-align: center;

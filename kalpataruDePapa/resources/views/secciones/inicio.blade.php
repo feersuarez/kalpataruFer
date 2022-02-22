@@ -9,9 +9,13 @@
 
 
 <div id="principal">
-    <ul>
-        <li>Nuestr@</li>
-    </ul>
+    <div class="animacion_princ">
+        <p class="li_inicio">Nuestro/s</p>
+        <ul class="ul_inicio">
+            <li class="li_inicio">Árbol</li>
+            <li class="li_inicio">Deseo</li>
+            <li class="li_inicio">Futuro</li>
+        </ul>
  
     
 
