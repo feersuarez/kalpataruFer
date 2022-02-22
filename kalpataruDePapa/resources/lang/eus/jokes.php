@@ -26,6 +26,23 @@ return [
     'ContraRegistro' => 'Pasahitza:',
     'RepetirRegistro' => 'Errepikatu Pasahitza:',
     'RegistroBtn' => 'Erregistraru',
+    /* Inicio Sesión */
+    'InicioSesion' => 'Saioa Hasi',
+    'CorreoInicio' => 'Posta Elektronikoa:',
+    'ContraSesion' => 'Pasahitza:',
+    'RecordarSesion' => 'Gogoratu Pasahitza',
+    'IniciarSesion' => 'Saioa Hasi',
+    'OlvidasteSesion' => 'Pasahitza ahaztu duzu?',
+    /* Verify */
+    'VerificarCorreo' => 'Egiaztatu posta elektronikoa.',
+    'SeHaEnviadoEnlace' => 'Egiaztatze-esteka berri bat bidali da zure helbide elektronikora.',
+    'AntesDeContinuarVerifique' => 'Jarraitu aurretik, egiaztatu zure posta elektronikoa egiaztatze-lotura bat lortzeko.',
+    'SiNoRecibisteElCorreo' => 'Posta elektronikoa jaso ez baduzu,',
+    'HagaClic' => 'egin klik hemen beste bat eskatzeko.',
+    /* Email */
+    'ResetPsswd' => "Berrezarri pasahitza",
+    'CorreoEmail' => 'Posta:',
+    'EnvResetEmail' => 'Bidali esteka pasahitza berrabiarazteko',
 
 
 
