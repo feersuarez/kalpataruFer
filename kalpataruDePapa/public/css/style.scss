@@ -1,8 +1,9 @@
 $nav-color: rgba(0,0,0,0.5);
 $primary-color: #7f00b2;
 $secondary-color: #000;
-$letter-color1: #D401D6;
-$letter-color1-hover: #b9ffff;
+$letter-color1: #D401D6; //nav
+$letter-color1-hover: #b9ffff; //nav
+$color-txt: #b9ffff;
 $letra1: 'Staatliches', 'cursive';
 $letra2: 'Helvetica';
 
@@ -50,17 +51,26 @@ body{
 }
 
 //mensajes
+
 #nuevo_mensaje{
     display: none;
-
 }
 
-#cerrar_anyadir_mensaje{
-    background-color: $primary-color;
-    color: $secondary-color;
-    
-}
 #añadir_mensaje{
     background-color: $primary-color;
+    color: $color-txt;
+    border: none;
 }
 
+#crear_mensaje{
+    background-color: $primary-color;
+    color: $color-txt;
+    border: none;
+}
+
+
+#cerrar_anyadir_mensaje{
+    background-color: $color-txt;
+    color: $primary-color; 
+    border: none;
+}

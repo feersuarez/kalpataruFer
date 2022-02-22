@@ -43,12 +43,21 @@ body {
   display: none;
 }
 
-#cerrar_anyadir_mensaje {
-  background-color: #7f00b2;
-  color: #000;
-}
-
 #añadir_mensaje {
   background-color: #7f00b2;
+  color: #b9ffff;
+  border: none;
+}
+
+#crear_mensaje {
+  background-color: #7f00b2;
+  color: #b9ffff;
+  border: none;
+}
+
+#cerrar_anyadir_mensaje {
+  background-color: #b9ffff;
+  color: #7f00b2;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
