@@ -22,10 +22,10 @@
 
         </script>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="color: #D401D6;">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="items_navbar">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
 
@@ -35,7 +35,7 @@
                     <a class="nav-link" aria-current="page" href="{{ route('login')}}">{!! trans('jokes.IniSesion') !!}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ route('register')}}">{!! trans('jokes.Registrarse') !!}</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('register')}}">{!! trans('jokes.Registrarse') !!}</a>
                 </li>
                 @else
                 <li class="nav-item">
@@ -43,7 +43,7 @@
                             style="color: #b9ffff">{{auth()->user()->name}}</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ route('mensajes.index')}}">{!! trans('jokes.Mensajes') !!}</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('mensajes.index')}}">{!! trans('jokes.Arboldeseos') !!}</a>
                 </li>
                 @if(Auth::user()->role_id=="1")
 
@@ -73,7 +73,7 @@
                     @if ($lang != App::getLocale())
                     <a class="nav-link  text-color-GureB " href="{!! route('lang.swap', $lang) !!}"
                         style="padding-right:0px; margin-right:0px;">
-                        {!! $lang !!}/
+                        {!! $lang !!}
                     </a>
                 </li>
                 @endif
@@ -85,7 +85,7 @@
                     @if ($lang == App::getLocale())
                     <a class="nav-link  text-color-GureB " href="{!! route('lang.swap', $lang) !!}"
                         style="padding-left:0px; margin-left:0px;">
-                        <strong>{!! $lang !!}</strong>
+                        <u style="margin-left: 5px;">{!! $lang !!}</u>
                     </a>
                     @endif
                     @endforeach
