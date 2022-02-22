@@ -52,25 +52,64 @@ body{
 
 //mensajes
 
+.form_newmsj{
+    color: $color-txt;
+}
+
 #nuevo_mensaje{
     display: none;
+    margin-left: 33%;
+    font-size: 30px;
 }
 
 #añadir_mensaje{
     background-color: $primary-color;
     color: $color-txt;
     border: none;
+    padding: 2%;
+    font-size: 20px;
+}
+
+#añadir_mensaje:hover{
+    background-color: $color-txt;
+    color: $letter-color1;
 }
 
 #crear_mensaje{
     background-color: $primary-color;
     color: $color-txt;
     border: none;
+    padding: 2%;
+    font-size: 20px;
+    margin-left: 17%;
 }
 
+#crear_mensaje:hover{
+    background-color: $color-txt;
+    color: $letter-color1;
+}
 
 #cerrar_anyadir_mensaje{
     background-color: $color-txt;
-    color: $primary-color; 
+    color: $letter-color1; 
     border: none;
+    padding: 1%;
+    font-size: 15px;
+    margin-left: 17%;
+}
+
+#cerrar_anyadir_mensaje:hover{
+    background-color: $letter-color1;
+    color: $color-txt;
+}
+
+.input_msj{
+    width: 400px;
+    height: 150px;
+    font-family: $letra2;
+    font-size: small;
+}
+
+#input_msj_title{
+    height: 40px;
 }

@@ -39,25 +39,65 @@ body {
   font-family: "Helvetica";
 }
 
+.form_newmsj {
+  color: #b9ffff;
+}
+
 #nuevo_mensaje {
   display: none;
+  margin-left: 33%;
+  font-size: 30px;
 }
 
 #añadir_mensaje {
   background-color: #7f00b2;
   color: #b9ffff;
   border: none;
+  padding: 2%;
+  font-size: 20px;
+}
+
+#añadir_mensaje:hover {
+  background-color: #b9ffff;
+  color: #D401D6;
 }
 
 #crear_mensaje {
   background-color: #7f00b2;
   color: #b9ffff;
   border: none;
+  padding: 2%;
+  font-size: 20px;
+  margin-left: 17%;
+}
+
+#crear_mensaje:hover {
+  background-color: #b9ffff;
+  color: #D401D6;
 }
 
 #cerrar_anyadir_mensaje {
   background-color: #b9ffff;
-  color: #7f00b2;
+  color: #D401D6;
   border: none;
+  padding: 1%;
+  font-size: 15px;
+  margin-left: 17%;
+}
+
+#cerrar_anyadir_mensaje:hover {
+  background-color: #D401D6;
+  color: #b9ffff;
+}
+
+.input_msj {
+  width: 400px;
+  height: 150px;
+  font-family: "Helvetica";
+  font-size: small;
+}
+
+#input_msj_title {
+  height: 40px;
 }
 /*# sourceMappingURL=style.css.map */

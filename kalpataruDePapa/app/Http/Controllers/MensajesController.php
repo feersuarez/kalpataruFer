@@ -72,13 +72,13 @@ $usuario=Auth::user();
                 //Volver al listado
                 //Mensaje de OK
                 \Session::flash('tipoMensaje','success');
-                \Session::flash('mensaje','Actividad creada correctamente');
+                \Session::flash('mensaje','Mensaje creado correctamente.');
 
         }catch(\Exception $e){
             //echo $e->getMessage();
             //Mensaje de KO
             \Session::flash('tipoMensaje','danger');
-            \Session::flash('mensaje','Error al crear la actividad');
+            \Session::flash('mensaje','Error en la creación del mensaje.');
 
 
         }

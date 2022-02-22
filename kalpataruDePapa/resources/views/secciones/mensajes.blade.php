@@ -31,11 +31,11 @@
                 @csrf
                 <div>
                     <p class="form_newmsj">{!! trans('jokes.Titulo_msj') !!}</p>
-                    <input type="text" class="input_msj" name="titulo" required>
+                    <input type="text" id="input_msj_title" class="input_msj" name="titulo" required>
                 </div>
                 <div>
                     <p class="form_newmsj">{!! trans('jokes.Contenido_msj') !!}</p>
-                    <input type="text" class="input_msj" name="contenido" required>
+                    <textarea type="text" class="input_msj" name="contenido" required></textarea>
 
                 </div>
                 <div>

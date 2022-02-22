@@ -12,7 +12,7 @@ return [
     'Titulo_mensaje' => 'Mezu Izenburua',
     'Contenidomsj' => 'Edukia',
     'Likes' => 'Likes',
-    'New_Message' => 'Mezua Sortu',
+    'New_Message' => 'Mezua Sortu +',
     'Titulo_msj' => 'Mezu Izenburua',
     'Contenido_msj' => 'Edukia',
     'Crear_msj' => 'Sortu',
