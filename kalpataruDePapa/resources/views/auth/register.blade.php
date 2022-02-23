@@ -27,15 +27,21 @@ $cursos= App\Models\Curso::all();
                                 @enderror
                             </div>
                         </div>
+                        {{-- <div class="input-group form-group mt-3">
+                            <select id="id_curso" name="id_curso">
+                                @foreach ($cursos as $curso)
+                                <option value="{{$curso->id}}">{{$curso->nombre}}</option>
+                                @endforeach
+                            </select>
+                        </div> --}}
                         <div class="form-group row"> 
                             <label for="CodCurso" style="color: #b9ffff; margin-top: 1%;" class="col-md-4 col-form-label text-md-right">{!! trans('jokes.CursoRegistro') !!}</label>
                             <div class="col-md-6">
-                            <select class="form-select" style="background-color: rgba(255, 255, 255, 0.5); margin-top: 1%; border: none;" aria-label="Default select example" name="codCurso">
+                            <select class="form-select" style="background-color: rgba(255, 255, 255, 0.5); margin-top: 1%; border: none;" aria-label="Default select example" name="id_curso" id="id_curso">
                                 <option selected>{!! trans('jokes.SelectCurso') !!}</option>
                                 @foreach($cursos as $curso)
                                 <option value="{{$curso->id}}">{{$curso->nombre}}</option>
                                 @endforeach
-
                               </select>
                             </div>
                         </div>

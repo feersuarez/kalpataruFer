@@ -16,6 +16,7 @@ return [
     /* Mensajes */
     'Titulo_mensaje' => 'Título Mensaje',
     'Contenidomsj' => 'Contenido',
+    'Autor_msj' => 'Autor',
     'Likes' => 'Likes',
     'New_Message' => 'Crear Mensaje +',
     'Titulo_msj' => 'Título Mensaje',

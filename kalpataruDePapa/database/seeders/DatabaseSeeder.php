@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 
 class DatabaseSeeder extends Seeder
 {
@@ -18,11 +20,10 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\User::factory()->create([
            'role_id'=>'1',
-           'name'=>'gorka',
-           'email'=>'gorkafreirefulgencio@gmail.com',
-           'email_verifed_at'=>now(),
-           'password'=>Hash::make('12345678'),
-           'id_curso'=>'2',
+           'name'=>'papa',
+           'email'=>'papa@papa.com',
+           'password'=>Hash::make('x'),
+           'id_curso'=>'1',
            'reenember_token'=> Str::random(10),
 
         ]);

@@ -205,6 +205,10 @@ body {
   height: 40px;
 }
 
+.titulos_mensajes {
+  background-color: #000;
+}
+
 /* Scroll Bar */
 ::-webkit-scrollbar {
   width: 12px;
