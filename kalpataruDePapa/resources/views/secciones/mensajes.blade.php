@@ -2,33 +2,12 @@
 @section('titulo','Mensajes')
 @section('contenido')
 <link rel="stylesheet" type="text/css" href="../public/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <script src="{{asset('./js/app.js')}}"></script>
 
 
 <h1 class="titulos">{!! trans('jokes.Titulo_mensaje') !!}</h1>
 <div class="mensjesComp">
-    
-    <table class="table">
-        <thead style="border-color: #b9ffff;">
-            <tr>
-                <th scope="col">{!! trans('jokes.Titulo_msj') !!}</th>
-                <th scope="col">{!! trans('jokes.Contenido_msj') !!}</th>
-                <th scope="col">{!! trans('jokes.Autor_msj') !!}</th>
-                @foreach($mensajes as $mensaje)
-
-            <tr>
-                <td>{{$mensaje->titulo}}</td>
-                <td>{{$mensaje->contenido}}</td>
-                <td>
-                    @php
-                    $usuario=App\Models\User::find($mensaje->id_user);
-                    @endphp
-                    {{$usuario->name}}</td>
-                <td>
-            </tr>
-            @endforeach
-            </tr>
-        </thead>
         <button id="añadir_mensaje" onclick="anyadir_mensaje()">{!! trans('jokes.New_Message') !!}</button>
         <div id="nuevo_mensaje">
             <button id="cerrar_anyadir_mensaje" onclick="cerrar_mensaje()">x</button>
@@ -48,20 +27,28 @@
                     <button id="crear_mensaje" type="submit">{!! trans('jokes.Crear_msj') !!}</button>
 
             </form>
-
-
-    </table>
 </div>
+</div>
+@foreach($mensajes as $mensaje)
 <div class="card" style="width: 18rem;">
-    <div class="card-header">
-      Featured
-    </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
+        <li class="list-group-item">{!! trans('jokes.Autor_msj') !!}</li>
+        <li class="list-group-item">
+            @php
+            $usuario=App\Models\User::find($mensaje->id_user);
+            @endphp
+            {{$usuario->name}}
+        </li>
+        <li class="list-group-item">{!! trans('jokes.Titulo_msj') !!}</li>
+        <li class="list-group-item">{{$mensaje->titulo}}</li>
+        <li class="list-group-item">{!! trans('jokes.Contenido_msj') !!}</li>
+        <li class="list-group-item">{{$mensaje->contenido}}</li>
+        <li class="list-group-item">{!! trans('jokes.Likes') !!}</li>
+        <li class="list-group-item">{{$mensaje->likes}}<i class="fa-solid fa-heart"></i></li>
+
     </ul>
-  </div>
+</div>
+@endforeach
 @endsection
 <!-- Para hacer migrate y seed ala vez -->
 <!-- php artisan migrate:fresh --seed -->
