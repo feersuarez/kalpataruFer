@@ -6,7 +6,9 @@ $letter-color1-hover: #b9ffff; //nav
 $color-txt: #b9ffff;
 $letra1: 'Staatliches', 'cursive';
 $letra2: 'Helvetica';
-
+$scroll: rgba(0,0,0,0.9);
+$scroll2: rgb(212,1,214);
+$animation-color: rgba(15, 0, 95, 0.6);
 
 
 body{
@@ -52,11 +54,11 @@ body{
 
 .animacion_princ{
     display: flex;
-    width: 300px;
-    height: 40px;
-    color: $color-txt;
-    font-size: 40px;
-    line-height: 40px;
+    width: 1400px;
+    height: 120px;
+    color: $animation-color;
+    font-size: 120px;
+    line-height: 120px;
     font-family: $letra1;
 
     position: absolute;
@@ -68,11 +70,15 @@ body{
     overflow: hidden;
 }
 
+#palabra1_animacion{
+    margin-left: 25%;
+}
+
 .ul_inicio{
     list-style: none;
-    padding-left: 10px;
+    padding-left: 100px;
     animation-name: cambiar;
-    animation-duration:  7s;
+    animation-duration:  8s;
     animation-iteration-count:  infinite;
 }
 
@@ -84,14 +90,14 @@ body{
     0%{ margin-top: 0 };
     20%{ margin-top: 0 };
 
-    25%{ margin-top: -40px };
-    50%{ margin-top: -40px };
+    25%{ margin-top: -120px };
+    50%{ margin-top: -120px };
 
-    55%{ margin-top: -80px };
-    80%{ margin-top: -80px };
+    55%{ margin-top: -240px };
+    80%{ margin-top: -240px };
 
-    85%{ margin-top: -40px };
-    95%{ margin-top: -40px };
+    85%{ margin-top: -120px };
+    95%{ margin-top: -120px };
 
     100%{ margin-top: 0 };
 }
@@ -165,4 +171,17 @@ body{
     height: 40px;
 }
 
-/* Iniciar Sesion */
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: $scroll;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: $scroll2;
+    border-radius: 20px;
+    border: 3px solid $scroll2;
+}

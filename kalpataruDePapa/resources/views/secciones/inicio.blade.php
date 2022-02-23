@@ -10,7 +10,7 @@
 
 <div id="principal">
     <div class="animacion_princ">
-        <p class="li_inicio">{!! trans('jokes.Nuestros_Inicio') !!}</p>
+        <p class="li_inicio" id="palabra1_animacion">{!! trans('jokes.Nuestros_Inicio') !!}</p>
         <ul class="ul_inicio">
             <li class="li_inicio">{!! trans('jokes.Arbol_Inicio') !!}</li>
             <li class="li_inicio">{!! trans('jokes.Deseos_Inicio') !!}</li>

@@ -9,9 +9,9 @@ return [
     'Registrarse' => 'Registrarse',
     'CerrarSesion' => 'Cerrar Sesión',
     /* Inicio */
-    'Nuestros_Inicio' => 'Nuestro/s',
+    'Nuestros_Inicio' => 'Nuestro',
     'Arbol_Inicio' => 'Árbol',
-    'Deseos_Inicio' => 'Deseos',
+    'Deseos_Inicio' => 'Deseo',
     'Futuro_Inicio' => 'Futuro',
     /* Mensajes */
     'Titulo_mensaje' => 'Título Mensaje',

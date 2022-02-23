@@ -43,11 +43,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 300px;
-  height: 40px;
-  color: #b9ffff;
-  font-size: 40px;
-  line-height: 40px;
+  width: 1400px;
+  height: 120px;
+  color: rgba(15, 0, 95, 0.6);
+  font-size: 120px;
+  line-height: 120px;
   font-family: "Staatliches", "cursive";
   position: absolute;
   top: 0;
@@ -58,13 +58,17 @@ body {
   overflow: hidden;
 }
 
+#palabra1_animacion {
+  margin-left: 25%;
+}
+
 .ul_inicio {
   list-style: none;
-  padding-left: 10px;
+  padding-left: 100px;
   -webkit-animation-name: cambiar;
           animation-name: cambiar;
-  -webkit-animation-duration: 7s;
-          animation-duration: 7s;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
@@ -81,22 +85,22 @@ body {
     margin-top: 0;
   }
   25% {
-    margin-top: -40px;
+    margin-top: -120px;
   }
   50% {
-    margin-top: -40px;
+    margin-top: -120px;
   }
   55% {
-    margin-top: -80px;
+    margin-top: -240px;
   }
   80% {
-    margin-top: -80px;
+    margin-top: -240px;
   }
   85% {
-    margin-top: -40px;
+    margin-top: -120px;
   }
   95% {
-    margin-top: -40px;
+    margin-top: -120px;
   }
   100% {
     margin-top: 0;
@@ -111,22 +115,22 @@ body {
     margin-top: 0;
   }
   25% {
-    margin-top: -40px;
+    margin-top: -120px;
   }
   50% {
-    margin-top: -40px;
+    margin-top: -120px;
   }
   55% {
-    margin-top: -80px;
+    margin-top: -240px;
   }
   80% {
-    margin-top: -80px;
+    margin-top: -240px;
   }
   85% {
-    margin-top: -40px;
+    margin-top: -120px;
   }
   95% {
-    margin-top: -40px;
+    margin-top: -120px;
   }
   100% {
     margin-top: 0;
@@ -201,5 +205,18 @@ body {
   height: 40px;
 }
 
-/* Iniciar Sesion */
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d401d6;
+  border-radius: 20px;
+  border: 3px solid #d401d6;
+}
 /*# sourceMappingURL=style.css.map */
