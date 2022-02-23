@@ -59,8 +59,6 @@ return [
     'ContraReset' => 'Contraseña:',
     'ConfirmarContraReset' => 'Confirmar contraseña',
     'ResetContraReset' => 'Resetear contraseña',
-
-
 ];
 
 ?>

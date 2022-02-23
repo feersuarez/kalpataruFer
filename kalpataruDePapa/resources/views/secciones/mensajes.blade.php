@@ -6,7 +6,7 @@
 <script src="{{asset('./js/app.js')}}"></script>
 
 
-<h1 class="titulos">{!! trans('jokes.Titulo_mensaje') !!}</h1>
+<h1 class="titulos">{!! trans('jokes.Arboldeseos') !!}</h1>
 <div class="mensjesComp">
         <button id="añadir_mensaje" onclick="anyadir_mensaje()">{!! trans('jokes.New_Message') !!}</button>
         <div id="nuevo_mensaje">
@@ -25,26 +25,25 @@
                 <div>
 
                     <button id="crear_mensaje" type="submit">{!! trans('jokes.Crear_msj') !!}</button>
-
+                </div>
             </form>
 </div>
-</div>
 @foreach($mensajes as $mensaje)
-<div class="card" style="width: 18rem;">
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item">{!! trans('jokes.Autor_msj') !!}</li>
-        <li class="list-group-item">
+<div class="card" style="width: 18rem; display: inline-block; margin-left: 2%; margin-bottom: 2%; margin-top: 2%; background-color: rgba(15, 0, 95, 0.2)">
+    <ul class="list-group list-group-flush" style="">
+        <li class="list-group-item" style="background-color: rgba(230, 90, 233, 0.6); color: rgb(15, 0, 95); text-align: center;">{!! trans('jokes.Autor_msj') !!}</li>
+        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center;">
             @php
             $usuario=App\Models\User::find($mensaje->id_user);
             @endphp
             {{$usuario->name}}
         </li>
-        <li class="list-group-item">{!! trans('jokes.Titulo_msj') !!}</li>
-        <li class="list-group-item">{{$mensaje->titulo}}</li>
-        <li class="list-group-item">{!! trans('jokes.Contenido_msj') !!}</li>
-        <li class="list-group-item">{{$mensaje->contenido}}</li>
-        <li class="list-group-item">{!! trans('jokes.Likes') !!}</li>
-        <li class="list-group-item">{{$mensaje->likes}}<i class="fa-solid fa-heart"></i></li>
+        <li class="list-group-item" style="background-color: rgba(230, 90, 233, 0.6); color: rgb(15, 0, 95); text-align: center;">{!! trans('jokes.Titulo_msj') !!}</li>
+        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center;">{{$mensaje->titulo}}</li>
+        <li class="list-group-item" style="background-color: rgba(230, 90, 233, 0.6); color: rgb(15, 0, 95); text-align: center;">{!! trans('jokes.Contenido_msj') !!}</li>
+        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center;">{{$mensaje->contenido}}</li>
+        <li class="list-group-item" style="background-color: rgba(230, 90, 233, 0.6); color: rgb(15, 0, 95); text-align: center;">{!! trans('jokes.Likes') !!}</li>
+        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center;">{{$mensaje->likes}}<i class="fa-solid fa-heart"></i></li>
 
     </ul>
 </div>

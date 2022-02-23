@@ -23,7 +23,7 @@
         </script>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="color: #D401D6;">
-            <span class="navbar-toggler-icon"></span>
+            <img src="../public/images/burger.png" style="width: 62px">
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">

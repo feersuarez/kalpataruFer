@@ -16,6 +16,7 @@ return [
     /* Mensajes */
     'Titulo_mensaje' => 'Mezu Izenburua',
     'Contenidomsj' => 'Edukia',
+    'Autor_msj' => 'Egilea',
     'Likes' => 'Likes',
     'New_Message' => 'Mezua Sortu +',
     'Titulo_msj' => 'Mezu Izenburua',
@@ -58,10 +59,5 @@ return [
     'ContraReset' => 'Pasahitza:',
     'ConfirmarContraReset' => 'Pasahitza berretsi',
     'ResetContraReset' => 'Berrezarri pasahitza',
-
-
-
-
-
 ];
 ?>
