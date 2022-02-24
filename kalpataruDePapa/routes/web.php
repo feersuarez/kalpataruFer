@@ -41,6 +41,10 @@ Route::get('/grafica',  function () {
     return view('secciones.grafica');
 } )->name('grafica');
 
+Route::get('/perfil',  function () {
+    return view('secciones.perfil');
+} )->name('perfil');
+
 //Route::resource('/mensajes',MensajesController::class);
 //Route::get('mensajes',[MensajesController::class, "index"]);
 

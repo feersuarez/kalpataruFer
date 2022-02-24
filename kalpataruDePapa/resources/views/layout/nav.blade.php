@@ -32,10 +32,12 @@
                 {{-- Solo Invitados --}}
                 @if(!Auth::check())
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ route('login')}}">{!! trans('jokes.IniSesion') !!}</a>
+                    <a class="nav-link" aria-current="page" href="{{ route('login')}}">{!! trans('jokes.IniSesion')
+                        !!}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ route('register')}}">{!! trans('jokes.Registrarse') !!}</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('register')}}">{!!
+                        trans('jokes.Registrarse') !!}</a>
                 </li>
                 @else
                 <li class="nav-item">
@@ -43,18 +45,22 @@
                             style="color: #b9ffff">{{auth()->user()->name}}</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ route('mensajes.index')}}">{!! trans('jokes.Arboldeseos') !!}</a>
+                    <a class="nav-link active" aria-current="page" href="{{ route('mensajes.index')}}">{!!
+                        trans('jokes.Arboldeseos') !!}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="{{ route('perfil')}}">{!!
+                        trans('jokes.Perfil')!!}</a>
                 </li>
                 @if(Auth::user()->role_id=="1")
-
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="{{ route('grafica')}}">{!!
+                        trans('jokes.Grafica')!!}</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link active" id="admin" onMouseOver="this.style.cssText='color: #cc0000'"
                         onMouseOut="this.style.cssText='color: #fff'" aria-current="page"
                         href="{{ route('voyager.dashboard') }}">{!! trans('jokes.Administradora') !!}</a></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ route('grafica')}}">{!! trans('jokes.Grafica')!!}</a>
                 </li>
 
                 @endif
@@ -70,6 +76,7 @@
                         @csrf
                     </form>
                 </li>
+
                 @endif
                 <li class="nav-item">
                     @if (config('locale.status') && count(config('locale.languages')) > 0)
@@ -93,6 +100,7 @@
                     </a>
                     @endif
                     @endforeach
+
                     @endif
                 </li>
                 {{-- <li class="nav-item">

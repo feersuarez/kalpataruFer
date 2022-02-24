@@ -64,6 +64,9 @@ return [
     'Grafica_alumnos' => 'Gráfica tipos de Usuarios',
     'admin_grafica' => 'Administradores',
     'usuarios_grafica' => 'Usuarios',
+    /* Perfil */
+    'NomUser_Perfil' => 'Nombre de Usuario:',
+    'Email_Perfil' => 'Correo:',
 ];
 
 ?>

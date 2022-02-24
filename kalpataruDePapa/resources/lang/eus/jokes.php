@@ -64,5 +64,6 @@ return [
     'Grafica_alumnos' => 'Ikasle moten grafikoa',
     'admin_grafica' => 'Administratzaileak',
     'usuarios_grafica' => 'Erabiltzaileak',
+    /* Perfil */
 ];
 ?>

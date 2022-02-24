@@ -1,11 +1,11 @@
 @extends('layout.masterpage')
-@section('titulo','Mensajes')
+@section('titulo','Gráfica')
 @section('contenido')
 @php
 
 $usuarios=App\Models\User::all();
-$usuarioUno=$usuarios->where('role_id',1);
-$usuarioDos=$usuarios->where('role_id',2);
+$usuarioAdmin=$usuarios->where('role_id',1);
+$usuarioNormal=$usuarios->where('role_id',2);
 @endphp
 <?php echo '<link rel="stylesheet" type="text/css" href="../public/css/style.css">'
 ?>
@@ -21,8 +21,8 @@ $usuarioDos=$usuarios->where('role_id',2);
 <canvas id="user_admin" width="200" height="200"></canvas>
 <script>
 
-let cant_users1DAW={{$usuarioUno->count()}};
-let cant_users2DAW={{$usuarioDos->count()}};
+let cant_usersAdmin={{$usuarioAdmin->count()}};
+let cant_usersNormales={{$usuarioNormal->count()}};
 
 
 
@@ -34,7 +34,7 @@ const myChart = new Chart(ctx, {
         labels: ['{!! trans('jokes.admin_grafica') !!}', '{!! trans('jokes.usuarios_grafica') !!}'],
         datasets: [{
             label: '# of Votes',
-            data: [cant_users1DAW, cant_users2DAW,],
+            data: [cant_usersAdmin, cant_usersNormales,],
             backgroundColor: [
                 'rgba(212, 1, 214, 0.4)',
                 'rgba(15, 0, 95, 0.6)',
@@ -57,9 +57,5 @@ const myChart = new Chart(ctx, {
     }
 });
 </script>
-
-
-
-
 </div>
 @endsection
