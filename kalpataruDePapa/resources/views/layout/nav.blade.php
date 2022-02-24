@@ -53,6 +53,10 @@
                         href="{{ route('voyager.dashboard') }}">{!! trans('jokes.Administradora') !!}</a></a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="{{ route('grafica')}}">{!! trans('jokes.Grafica')!!}</a>
+                </li>
+
                 @endif
                 <li class="nav-item">
                     {{-- Petición POST (La ruta así lo espera) --}}

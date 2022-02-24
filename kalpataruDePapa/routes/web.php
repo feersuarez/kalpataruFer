@@ -37,6 +37,9 @@ Route::get('/mensajes',  function () {
     return view('secciones.mensajes');
 } )->name('mensajes');
 
+Route::get('/grafica',  function () {
+    return view('secciones.grafica');
+} )->name('grafica');
 
 //Route::resource('/mensajes',MensajesController::class);
 //Route::get('mensajes',[MensajesController::class, "index"]);

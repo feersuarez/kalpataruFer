@@ -59,5 +59,10 @@ return [
     'ContraReset' => 'Pasahitza:',
     'ConfirmarContraReset' => 'Pasahitza berretsi',
     'ResetContraReset' => 'Berrezarri pasahitza',
+    /* Grafica */
+    'Grafica' => 'Ikasleen Grafikoa',
+    'Grafica_alumnos' => 'Ikasle moten grafikoa',
+    'admin_grafica' => 'Administratzaileak',
+    'usuarios_grafica' => 'Erabiltzaileak',
 ];
 ?>

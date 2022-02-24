@@ -162,7 +162,7 @@ body {
   margin-right: 70%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   #nuevo_mensaje {
     display: none;
     margin-left: 0%;
@@ -170,6 +170,10 @@ body {
   }
   .animacion_princ {
     display: none;
+  }
+  #grafica_todo {
+    width: 350px !important;
+    height: 350px !important;
   }
 }
 
@@ -234,5 +238,11 @@ body {
   background-color: #d401d6;
   border-radius: 20px;
   border: 3px solid #d401d6;
+}
+
+/* Gráfica */
+#grafica_todo {
+  width: 550px;
+  height: 550px;
 }
 /*# sourceMappingURL=style.css.map */

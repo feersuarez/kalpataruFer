@@ -59,6 +59,11 @@ return [
     'ContraReset' => 'Contraseña:',
     'ConfirmarContraReset' => 'Confirmar contraseña',
     'ResetContraReset' => 'Resetear contraseña',
+    /* Gráfica */
+    'Grafica' => 'Gráfica Usuarios',
+    'Grafica_alumnos' => 'Gráfica tipos de Usuarios',
+    'admin_grafica' => 'Administradores',
+    'usuarios_grafica' => 'Usuarios',
 ];
 
 ?>
