@@ -43,7 +43,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1400px;
+  width: 1200px;
   height: 120px;
   color: rgba(15, 0, 95, 0.6);
   font-size: 120px;
@@ -59,7 +59,7 @@ body {
 }
 
 #palabra1_animacion {
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
 .ul_inicio {

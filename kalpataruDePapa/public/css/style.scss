@@ -54,7 +54,7 @@ body{
 
 .animacion_princ{
     display: flex;
-    width: 1400px;
+    width: 1200px;
     height: 120px;
     color: $animation-color;
     font-size: 120px;
@@ -71,7 +71,7 @@ body{
 }
 
 #palabra1_animacion{
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 .ul_inicio{
@@ -161,7 +161,7 @@ body{
 
 #cerrar_anyadir_mensaje{
     background-color: $color-txt;
-    color: $letter-color1; 
+    color: $letter-color1;
     border: none;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
