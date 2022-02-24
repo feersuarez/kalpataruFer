@@ -9,7 +9,7 @@ $user=Auth::user();
 @endphp
 
 <div id="perfil">
-    <h1 class="titulos">Perfil</h1>
+    <h1 class="titulos">{!!trans('jokes.Perfil')!!}</h1>
     <div id="parteArribaPerfil">
     <img id="image_profile" src="../public/images/perfilUnisex.png">
     <p class="inputsPerfil">{!! trans('jokes.NomUser_Perfil') !!} <span class="contenidoInputs">{{$user->name}}</span></p>

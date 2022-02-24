@@ -49,8 +49,7 @@
                         trans('jokes.Arboldeseos') !!}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ route('perfil')}}">{!!
-                        trans('jokes.Perfil')!!}</a>
+                    <a class="nav-link" aria-current="page" href="{{ route('perfil')}}">{!!trans('jokes.Perfil')!!}</a>
                 </li>
                 @if(Auth::user()->role_id=="1")
                 <li class="nav-item">
