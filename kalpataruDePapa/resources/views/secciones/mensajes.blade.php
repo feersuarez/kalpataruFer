@@ -32,18 +32,18 @@
 <div class="card" style="width: 18rem; display: inline-block; margin-left: 2%; margin-bottom: 2%; margin-top: 2%; background-color: rgba(15, 0, 95, 0.2)">
     <ul class="list-group list-group-flush" style="">
         <li class="list-group-item" style="background-color: rgba(230, 90, 233, 0.6); color: rgb(15, 0, 95); text-align: center;">{!! trans('jokes.Autor_msj') !!}</li>
-        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center;">
+        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center; color: #ffc9d0;">
             @php
             $usuario=App\Models\User::find($mensaje->id_user);
             @endphp
             {{$usuario->name}}
         </li>
         <li class="list-group-item" style="background-color: rgba(230, 90, 233, 0.6); color: rgb(15, 0, 95); text-align: center;">{!! trans('jokes.Titulo_msj') !!}</li>
-        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center;">{{$mensaje->titulo}}</li>
+        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center; color: #ffc9d0;">{{$mensaje->titulo}}</li>
         <li class="list-group-item" style="background-color: rgba(230, 90, 233, 0.6); color: rgb(15, 0, 95); text-align: center;">{!! trans('jokes.Contenido_msj') !!}</li>
-        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center;">{{$mensaje->contenido}}</li>
+        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center; color: #ffc9d0;">{{$mensaje->contenido}}</li>
         <li class="list-group-item" style="background-color: rgba(230, 90, 233, 0.6); color: rgb(15, 0, 95); text-align: center;">{!! trans('jokes.Likes') !!}</li>
-        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center;">{{$mensaje->likes}}<i class="fa-solid fa-heart"></i></li>
+        <li class="list-group-item" style="font-family: 'Helvetica'; background-color: rgba(230, 90, 233, 0.6); text-align: center; color: #ffc9d0;">{{$mensaje->likes}}<i class="fa-solid fa-heart"></i></li>
 
     </ul>
 </div>
