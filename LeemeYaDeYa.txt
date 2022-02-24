@@ -1,0 +1,15 @@
+MIKEL
+1.- En tu caso, al hacerlo desde casa y no poder montarlo, descarga la BD que he exportado y cárgala en tu Heidi.
+    Esto es porque no me funcionan los Seeders, o me daba un fallo, la verdad es que no sé por qué.
+2.- Es muy necesario hacer el anterior paso, más que nada para que todo funcione correctamente y que los cambios del Voyager
+    funcionen bien.
+3.- Todas las traducciones están hechas, pero no he encontrado la forma de poder traducir los mensajes que escribe cada usuario.
+ELENA
+1.- He usado las Librerías de la máquina de escribir y la de Charts.js. Puedes observar en 
+    "/public/resources/views/secciones/grafica.blade.php" como uso la de Charts.js y en 
+    "/public/resources/views/layout/nav.blade.php" como uso la otra.
+2.- Los archivos de estilos están en "/public/css/" y los archivos JS en "/public/js/".
+3.- Algunos estilos se ven diferentes con la resolución de las pantallas de clase, he intentado solucionarlo y de hecho, 
+    he solucionado bastante.
+AMBOS
+1.- Hay elementos en el NavBar que sólo se pueden ver en modo administrador (gráfica charts.js y el enlace a Voyager). 
