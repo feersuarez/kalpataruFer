@@ -2,7 +2,7 @@
 body {
   font-family: "Staatliches", "cursive";
   background-image: url("../images/paisaje-fondo.jpg");
-  background-size: cover;
+  /*background-size: cover;*/
 }
 
 /*NAVBAR*/
