@@ -65,8 +65,11 @@ return [
     'admin_grafica' => 'Administradores',
     'usuarios_grafica' => 'Usuarios',
     /* Perfil */
+    'Perfil' => 'Perfil',
     'NomUser_Perfil' => 'Nombre de Usuario:',
     'Email_Perfil' => 'Correo:',
+    'Pass_Perfil' => 'Contraseña Bycript:',
+    'H3_Perfil' => 'Último Mensaje Creado:',
 ];
 
 ?>

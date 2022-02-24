@@ -65,5 +65,10 @@ return [
     'admin_grafica' => 'Administratzaileak',
     'usuarios_grafica' => 'Erabiltzaileak',
     /* Perfil */
+    'Perfil' => 'Profila',
+    'NomUser_Perfil' => 'Erabiltzaile-izena:',
+    'Email_Perfil' => 'Posta:',
+    'Pass_Perfil' => 'Pasahitza Bycript:',
+    'H3_Perfil' => 'Sortutako azken mezua:',
 ];
 ?>

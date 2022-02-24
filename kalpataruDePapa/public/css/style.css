@@ -162,21 +162,6 @@ body {
   margin-right: 70%;
 }
 
-@media (max-width: 768px) {
-  #nuevo_mensaje {
-    display: none;
-    margin-left: 0%;
-    font-size: 30px;
-  }
-  .animacion_princ {
-    display: none;
-  }
-  #grafica_todo {
-    width: 350px !important;
-    height: 350px !important;
-  }
-}
-
 #añadir_mensaje:hover {
   background-color: #b9ffff;
   color: #D401D6;
@@ -248,11 +233,65 @@ body {
 
 /* Perfil */
 #image_profile {
-  width: 200px;
+  width: 100px;
   border-radius: 320px;
 }
 
 .inputsPerfil {
+  color: #0f005f;
+  margin-top: 1%;
+}
+
+#perfil {
+  margin-left: 33.3%;
+  width: 340px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+  background-color: rgba(212, 1, 214, 0.5);
+  padding: 1%;
+}
+
+#pass {
+  display: none;
+}
+
+#ojo {
+  background-color: transparent;
+  border: none;
+  color: #0f005f;
+}
+
+.contenidoInputs {
   color: #b9ffff;
+}
+
+.subtitlePerfil {
+  color: #0f005f;
+  border-top: 2px solid #0f005f;
+}
+
+@media (max-width: 768px) {
+  #nuevo_mensaje {
+    display: none;
+    margin-left: 0%;
+    font-size: 30px;
+  }
+  .animacion_princ {
+    display: none;
+  }
+  #grafica_todo {
+    width: 350px !important;
+    height: 350px !important;
+  }
+  #perfil {
+    margin-left: 0%;
+    width: 300px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    background-color: rgba(212, 1, 214, 0.5);
+    padding: 1%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

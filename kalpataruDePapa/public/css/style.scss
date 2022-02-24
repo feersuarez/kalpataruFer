@@ -10,6 +10,7 @@ $mensajes: rgba(15, 0, 95, 0.6);
 $scroll: rgba(0,0,0,0.9);
 $scroll2: rgb(212,1,214);
 $animation-color: rgba(15, 0, 95, 0.6);
+$txt-perfil: rgb(15, 0, 95);
 
 body{
     font-family: $letra1;
@@ -128,23 +129,6 @@ body{
     margin-right: 70%;
 }
 
-@media (max-width: 768px) {
-    #nuevo_mensaje{
-        display: none;
-        margin-left: 0%;
-        font-size: 30px;
-    }
-
-    .animacion_princ{
-        display: none;
-    }
-
-    #grafica_todo{
-        width: 350px !important;
-        height: 350px !important;
-    }
-}
-
 #añadir_mensaje:hover{
     background-color: $color-txt;
     color: $letter-color1;
@@ -219,10 +203,67 @@ body{
 
 /* Perfil */
 #image_profile{
-    width: 200px;
+    width: 100px;
     border-radius: 320px;
 }
 
 .inputsPerfil{
+    color: $txt-perfil;
+    margin-top: 1%;
+}
+
+#perfil{
+    margin-left: 33.3%;
+    width: 340px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    background-color: rgba(212, 1, 214, 0.5);
+    padding: 1%;
+}
+
+#pass{
+    display: none;
+}
+
+#ojo{
+    background-color: transparent;
+    border: none;
+    color: $txt-perfil;
+}
+
+.contenidoInputs{
     color: $color-txt;
+}
+
+.subtitlePerfil{
+    color: $txt-perfil; 
+    border-top: 2px solid $txt-perfil;
+}
+
+@media (max-width: 768px) {
+    #nuevo_mensaje{
+        display: none;
+        margin-left: 0%;
+        font-size: 30px;
+    }
+
+    .animacion_princ{
+        display: none;
+    }
+
+    #grafica_todo{
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+    #perfil{
+        margin-left: 0%;
+        width: 300px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        text-align: center;
+        background-color: rgba(212, 1, 214, 0.5);
+        padding: 1%;
+    }
 }
